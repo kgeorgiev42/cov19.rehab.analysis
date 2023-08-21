@@ -84,7 +84,7 @@ AHP-related specialists:
 - **CP** (clinical pharmacist)
 - **PC** (specialist in palliative care)
 - **INFSV** (infection prevention service)
--	**OTHER** (unidentified care provider)
+- **OTHER** (unidentified care provider)
 
 ## TODOs
 - Provide documentation for R functions.
