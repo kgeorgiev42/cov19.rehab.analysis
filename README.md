@@ -75,15 +75,15 @@ cov19.rehab.analysis::pm.plot_dotted_chart(out_path='results/dotted_chart.pdf')
 
 ## Event codes
 AHP-related specialists:
-- NURSE (care delivered by a specialist nurse)
-- PT (physiotherapist)
-- OT (occupational therapist)
-- DT (dietician providing nutritional support)
-- SPL (speech and language therapist)
-- CP (clinical pharmacist)
-- PC (specialist in palliative care)
-- INFSV (infection prevention service)
-─	OTHER (unidentified care provider)
+- **NURSE** (care delivered by a specialist nurse)
+- **PT** (physiotherapist)
+- **OT** (occupational therapist)
+- **DT** (dietician providing nutritional support)
+- **SPL** (speech and language therapist)
+- **CP** (clinical pharmacist)
+- **PC** (specialist in palliative care)
+- **INFSV** (infection prevention service)
+-	**OTHER** (unidentified care provider)
 
 ## TODOs
 - Provide documentation for R functions.
