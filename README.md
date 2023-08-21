@@ -91,5 +91,5 @@ AHP-related specialists:
 - Add functionality for linear regression analysis.
 - Add coding and functionality for rehabilitation-related activities.
 
-## Acknowledgments
+## Acknowledgements
 We acknowledge the funding provided by the Sir Jules Thorn Charitable Trust PhD award (grant no. 21/01PhD).
