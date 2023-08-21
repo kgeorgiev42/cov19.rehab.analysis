@@ -1,0 +1,27 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "rbinom", "rlnorm", "ave", "median", "na.omit", "rnorm", "rpois",
+                "start")
+importFrom("grDevices", "dev.off", "png")
+importFrom("magrittr","%>%")
+importFrom("dplyr","mutate", "filter", "filter_at","case_when", "select", "group_by",
+           "ungroup", "slice", "slice_sample", "left_join", "arrange",
+           "summarise", "lead", "n", "first", "distinct", "rename",
+           "intersect", "union", "rowwise")
+importFrom("tidyr", "drop_na")
+importFrom("stringr", "str_split", "str_trim", "str_count", "str_replace_all")
+importFrom("lubridate", "days", "ymd_hm", "ymd_hms", "ymd", "interval",
+           "%within%", "hm", "as_datetime", "minutes", "parse_date_time")
+importFrom("imputeTS", "na.interpolation")
+importFrom("zoo", "zoo")
+importFrom("Hmisc", "cut2")
+importFrom("gtsummary", "tbl_summary", "add_p", "bold_labels", "modify_spanning_header", "as_gt",
+           "all_continuous", "style_pvalue")
+importFrom("gt", "gtsave")
+importFrom("bupaR", "activitylog", "to_eventlog")
+importFrom("DiagrammeR", "export_graph")
+importFrom("processmapR", "process_map", "frequency", "performance", "precedence_matrix", "process_matrix")
+importFrom("edeaR", "filter_infrequent_flows", "filter_activity_frequency", "filter_precedence",
+           "filter_trim", "filter_throughput_time", "throughput_time", "filter_processing_time",
+           "idle_time")
+importFrom("ggplot2", "ggplot", "theme", "theme_minimal", "scale_x_date", "geom_point", "aes", "labs",
+           "element_text", "ggsave")

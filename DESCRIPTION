@@ -1,0 +1,34 @@
+Package: cov19.rehab.analysis
+Type: Package
+Title: Anaylsis of COVID-19 rehabilitation requirements using routine EHR data
+Version: 0.1.0
+Authors@R: 
+    person("Konstantin", "Georgiev", email="K.S.Georgiev@sms.ed.ac.uk", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0003-4736-4039"))
+Maintainer: Konstantin Georgiev <k.s.georgiev@sms.ed.ac.uk>
+Description: This is a small R package used to describe COVID-19 related rehabilitation pathways in the hospital using routine data. The data is pseudo-randomly generated to match the structure of routine NHS Lothian (UK) datasets. The main functionality collects and aggregates sample outcome variables describing rehabilitation need. A Process Mining approach (bupaR Fuzzy Miner) is used to describe the rehabilitation pathways across COVID-19 Wave 1 and 2 through visual process maps and summary measurements.
+License: use_mit_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    bupaR (>= 0.5.3),
+    DiagrammeR (>= 1.0.10),
+    dplyr (>= 1.1.2),
+    edeaR (>= 0.9.4),
+    ggplot2 (>= 3.4.3),
+    Hmisc (>= 5.1.0),
+    imputeTS (>= 3.3),
+    lubridate (>= 1.9.2),
+    magrittr (>= 2.0.3),
+    processmapR (>= 0.5.3),
+    stats (>= 4.3.0),
+    stringr (>= 1.5.0),
+    tidyr (>= 1.3.0),
+    zoo (>= 1.8.12),
+    gt (>= 0.9.0),
+    gtsummary (>= 1.7.2)
+Suggests: 
+    DiagrammeRsvg (>= 0.1),
+    rsvg (>= 2.4.0)
