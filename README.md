@@ -16,7 +16,7 @@ This is an unofficial R library built in _RStudio and Rtools 4.3.0_ (recommended
 ## Usage
 <b>1.</b> Clone the project from this repository to your local directory using:
 ```
-git clone https://github.com/JadeBlue96/Style-AI.git 
+git clone https://github.com/kgeorgiev42/cov19.rehab.analysis.git
 ```
 <b>2.</b> Install the R library using RStudio or a similar interpreter. This can be done by loading this repository as a project and clicking _Build -> Install and Restart_, or:
 ```
@@ -41,6 +41,7 @@ cov19.rehab.analysis::pm.generate_event_log(out_path='data/pm_event_log.rda', po
 This will extract the timestamps from only the COVID-19 positive hospital episodes and save this in ```data/```.
 
 <b>4.</b> The main functionalities include:
+
 <b>4.1.</b> Generating a summary cohort table, stratified by COVID-19 wave.
 ```
 cov19.rehab.analysis::pm.get_summary_table()
