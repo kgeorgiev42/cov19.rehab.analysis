@@ -90,3 +90,6 @@ AHP-related specialists:
 - Modify time to therapy and length of stay to provide more realistic pathways and admission episodes.
 - Add functionality for linear regression analysis.
 - Add coding and functionality for rehabilitation-related activities.
+
+## Acknowledgments
+We acknowledge the funding provided by the Sir Jules Thorn Charitable Trust PhD award (grant no. 21/01PhD).
