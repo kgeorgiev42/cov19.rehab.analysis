@@ -75,7 +75,7 @@ cov19.rehab.analysis::pm.plot_dotted_chart(out_path='results/dotted_chart.pdf')
 ```
 
 ## Event codes
-AHP-related specialists:
+AHP and healthcare provider codes in dataset:
 - **NURSE** (care delivered by a specialist nurse)
 - **PT** (physiotherapist)
 - **OT** (occupational therapist)
